@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+header .navbar .section-logo {
+  padding-top: 40px;
+  padding-bottom: 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+header .navbar .section-logo img {
+  width: 175px;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.konten {
+  margin-bottom: 90px;
+}
+
+.konten .section-konten {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.konten .section-konten .kiri h1 {
+  margin-left: 30px;
+  margin-top: 60px;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.konten .section-konten .kiri p {
+  text-align: left;
+  font-family: Roboto;
+  margin-left: 30px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 530px;
+}
+
+.konten .section-konten .kiri button {
+  margin-left: 30px;
+  margin-top: 38px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  width: 250px;
+  height: 55px;
+  border-radius: 28px;
+  border: none;
+  background: #ff6363;
+}
+
+.konten .section-konten .kiri button:hover {
+  border: 2px solid #ff6363;
+  background: #ffffff;
+  color: #ff6363;
+}
+
+.konten .section-konten .kanan {
+  padding-left: 35px;
+}
+/*# sourceMappingURL=style.css.map */
